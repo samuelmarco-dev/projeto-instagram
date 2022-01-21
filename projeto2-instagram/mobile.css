@@ -1,5 +1,5 @@
 .conteudo-pagina{
-    background-color: tomato;
+    /* background-color: tomato; */
     margin-bottom: 54px;;
 }
 
@@ -36,7 +36,9 @@ header div, .logo-instagram img, .opcoes-instagram .padding {
     position: fixed;
     left: 0;
     bottom: 0;
+    right: 0;
     width: 100vw;
+    opacity: 0.97;
 }
 
 .barra-mobile ion-icon{
