@@ -36,7 +36,9 @@ header{
 
 .logo-instagram div{
     height: 22px;
-    border: 1px solid #DBDBDB;
+    /* border: 1px solid #DBDBDB; */
+    width: 1px;
+    background-color: #DBDBDB;
 }
 
 .logo-instagram img{
