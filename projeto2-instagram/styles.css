@@ -389,3 +389,13 @@ ion-icon{
 {
     cursor: pointer;
 }
+
+/* RECURSIVIDADE */
+.barra-de-busca img{
+    display: none;
+}
+
+.barra-mobile{
+    display: none;
+    height: 54px;
+}
