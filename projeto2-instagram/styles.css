@@ -19,6 +19,7 @@ header{
     position: fixed;
     left: 0;
     top: 0;
+    z-index: 5;
 }
 
 .logo-instagram, .barra-de-busca, .opcoes-instagram{ 
@@ -79,14 +80,81 @@ ion-icon{
     width: 614px;
     display: flex;
     flex-direction: column;
+    margin-top: 34px;
 }
 
 /* BARRA STORY */
 .barra-story{
     width: 100%;
-    background-color: turquoise;
+    background-color: #FFFFFF;
     height: 118px;
-    margin-top: 34px;
+    /* margin-top: 34px; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 0 3px rgb(77, 76, 74);
+    position: relative;
+}
+
+.stories-externo{
+    width: 66px;
+    height: 66px;
+    /* background-color: brown; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.stories-interno{
+    /* width: 56px; */
+    height: 56px;
+    /* background-color: chartreuse; */
+    /* border-radius: 50%; */
+    position: absolute;
+    /* left: 5px; */
+}
+
+.primeiro{
+    margin-left: 18px;
+}
+
+.outros{
+    margin-left: 14px;
+}
+
+.stories-externo img{
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+}
+
+.stories-interno img{
+     width: 56px;
+    height: 56px;
+}
+
+.icone{
+    width: 32px;
+    height: 32px;
+    /* background-color: brown; */
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, 0.7));
+}
+
+.icone ion-icon{
+    /* width: 32px;
+    height: 32px;
+    border-radius: 50%; */
+    filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, 0.7));
 }
 
 /* ESTILIZAÇÃO E POSICIONAMENTO DAS PUBLIAÇÕES */
