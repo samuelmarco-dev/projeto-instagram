@@ -4,7 +4,7 @@ body{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    background-color: #E5E5E5;
+    background-color: #FAFAFA;
 }
 
 /* ESTILIZAÇÃO DOS ELEMENTOS DO HEADER */
@@ -161,7 +161,7 @@ ion-icon{
     align-items: center;
     background-color: #FFFFFF;
     border-radius: 50%;
-    filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, 0.7));
+    filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, 0.6));
     cursor: pointer;
 }
 
@@ -280,6 +280,7 @@ ion-icon{
     margin-left: 30px;
     margin-top: 34px;
     position: fixed;
+    /* position: sticky; */
 }
 
 .story-perfil{
@@ -294,8 +295,13 @@ ion-icon{
     align-items: center;
 }
 
+.perfil img{
+    cursor: pointer;
+}
+
 .texto-perfil{
     padding-left: 17px;
+    cursor: pointer;
 }
 
 .texto-perfil strong{
@@ -337,6 +343,10 @@ ion-icon{
     justify-content: space-between;
     align-items: center;
     margin-top: 18px;
+}
+
+.recomendacao img, .descricao-recomendacao strong{
+    cursor: pointer;
 }
 
 .perfil-recomendacao{
