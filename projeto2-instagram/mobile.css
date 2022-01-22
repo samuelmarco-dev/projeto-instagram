@@ -8,8 +8,17 @@
     box-shadow: initial;
 }
 
-.barra-story, .feed, .publi-feed{
+.barra-story, .feed, .publi-feed, .comentarios{
     width: 100vw;
+}
+
+.comentarios .esquerda-comentar input, 
+.comentarios-postados, .quero-comentar{
+    width: 100%;
+}
+
+.comentarios-postados{
+    height: 40px;
 }
 
 .icone{
